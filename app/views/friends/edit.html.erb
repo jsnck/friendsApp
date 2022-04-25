@@ -1,0 +1,16 @@
+<%# style and rendered components are specified in _form.html.erb%>
+
+<div class="bg-light p-5 rounded-lg m-3">
+  <h1 class="display-4">
+    Editing friend
+  </h1>
+  <p class="lead">
+    <%= render "form", friend: @friend %>
+  </p>
+  
+  <hr class="my-4">
+    <%= link_to "Show this friend", @friend, class:"btn btn-secondary" %>
+    <%= link_to "Back to friends", friends_path, class:"btn btn-secondary" %>
+    <br><br>
+    <%= button_to 'Delete', @friend, class:"btn btn-danger", method: :delete, form: {data: { turbo_confirm: 'Are you sure?' }} %>
+</div>
