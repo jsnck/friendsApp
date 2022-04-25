@@ -1,7 +1,6 @@
-# README
+# Friends List App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is my friendslist App, created with ruby on rails. You can create an account and add friends to your personal friends list.
 
 Things you may want to cover:
 
