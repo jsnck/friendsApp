@@ -36,7 +36,7 @@
   <%= link_to "New friend", new_friend_path, class:"btn btn-secondary" %>
 
 <% else %>
-
-  <h1>Hello World!</h1> 
+  <%# render the homepage if user is not logged in, home/_index.html.erb%>
+  <%= render 'home/index' %>
 
 <% end %>

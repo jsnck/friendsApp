@@ -1,0 +1,67 @@
+<div class="card mb-3">
+  <div class="row g-0">
+
+    <%# picture%>
+    <div class="col-md-4">
+      <img src='/images/sunglasses_cat.jpg' class="img-fluid rounded-start" alt="...">
+    </div>
+
+    <%# main content%>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h3 class="card-title">Register today to build your individual Friends-List!</h3>
+        
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    Create your own Friends-List!
+                </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> 
+                    tbd
+                </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    Keep track of your friends social media names!
+                </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> 
+                    tbd                
+                </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    A lot more fun things coming soon!
+                </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> 
+                    tbd
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <%# Get-started button%>
+    <div class="class=col-md-8">
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <br/>
+            <%= link_to 'Get started!', new_user_registration_path, class:"btn btn-success btn-lg"%>
+            <br/>
+        </div>
+    </div>
+    
+  </div>
+</div>
